@@ -1,0 +1,196 @@
+                 * {
+                     box-sizing: border-box;
+                     font-family: 'Quicksand', sans-serif;
+                 }
+                 
+                 body {
+                     margin: 0;
+                 }
+                 
+                 .row:after {
+                     content: "";
+                     display: table;
+                     clear: both;
+                 }
+                 
+                 .header {
+                     background-image: url('../img/maraton1.jpeg');
+                     background-size: cover;
+                     background-attachment: scroll;
+                     padding: 8% 0%;
+                     text-align: center;
+                 }
+                 
+                 .header h1 {
+                     font-size: 6vw;
+                 }
+                 
+                 .one-column {
+                     padding: 2% 2%;
+                     float: left;
+                     width: 100%;
+                 }
+                 
+                 .one-column h1 {
+                     font-size: 9vh;
+                 }
+                 
+                 .one-column h2 {
+                     font-size: 8vh;
+                 }
+                 
+                 .one-column h8 {
+                     font-size: 6vw;
+                 }
+                 
+                 .two-column {
+                     padding: 20px;
+                     float: left;
+                     width: 50%;
+                 }
+                 
+                 .two-column img {
+                     width: 50%;
+                     float: center;
+                 }
+                 
+                 .two-column h1 {
+                     font-size: 2vw;
+                 }
+                 
+                 .two-column h6 {
+                     text-align: center;
+                     font-size: 2vw;
+                 }
+                 
+                 .four-column {
+                     padding: 20px;
+                     float: left;
+                     width: 25%;
+                     background-color: gray;
+                 }
+                 
+                 .four-column h1 {
+                     font-size: 2vw;
+                 }
+                 
+                 .four-column h2 {
+                     font-size: 1vw;
+                 }
+                 
+                 .four-column h3 {
+                     font-size: 1vw;
+                 }
+                 
+                 .four-column h4 {
+                     font-size: 1vw;
+                 }
+                 
+                 .separacion {
+                     display: none;
+                 }
+                 
+                 ul {
+                     list-style-type: none;
+                     margin: 0;
+                     font-size: 20px;
+                     padding: 5px 15%;
+                     overflow: hidden;
+                     position: fixed;
+                     top: 0;
+                     width: 100%;
+                     transition: 2s;
+                 }
+                 
+                 li {
+                     float: left;
+                     width: 25%;
+                 }
+                 
+                 li a {
+                     display: block;
+                     color: black;
+                     text-align: center;
+                 }
+                 
+                 li a:hover {
+                     color: gray;
+                 }
+                 
+                 @media screen and (max-width:600px) {
+                     .separacion {
+                         display: block;
+                     }
+                     .two-column,
+                     .three-column {
+                         width: 100%;
+                     }
+                     .one-column {
+                         width: 100%;
+                     }
+                     .one-column h1 {
+                         font-size: 7vw;
+                         padding: 100%;
+                     }
+                     .two-column h1 {
+                         font-size: 10vw;
+                     }
+                     .two-column img {
+                         width: 100%;
+                     }
+                     .two-column h6 {
+                         font-size: 4vw;
+                     }
+                     .four-column {
+                         width: 100%;
+                     }
+                     .four-column h1 {
+                         font-size: 6vw;
+                     }
+                     .four-column h2 {
+                         font-size: 5vw;
+                     }
+                     .four-column h3 {
+                         font-size: 5vw;
+                     }
+                     .four-column h4 {
+                         font-size: 5vw;
+                     }
+                     .header h1 {
+                         font-size: 14vw;
+                     }
+                 }
+                 
+                 ul {
+                     padding: 0px;
+                     overflow: auto;
+                     white-space: nowrap;
+                 }
+                 
+                 li {
+                     width: 50%;
+                     display: inline-block;
+                     float: none;
+                 }
+                 
+                 li a {
+                     font-size: 20x;
+                     display: inline-block;
+                 }
+                 
+                 img {
+                     width: 400px;
+                     margin-left: 2%;
+                 }
+                 
+                 li a:hover {
+                     color: gray;
+                 }
+                 
+                 .nav {
+                     background-color:
+                 }
+                 
+                 .one-column h8 {
+                     font-size: 8vw;
+                 }
