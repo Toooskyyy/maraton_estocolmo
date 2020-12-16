@@ -165,6 +165,7 @@
                      padding: 0px;
                      overflow: auto;
                      white-space: nowrap;
+                     background-color: black;
                  }
                  
                  li {
@@ -176,6 +177,7 @@
                  li a {
                      font-size: 20x;
                      display: inline-block;
+                     color: white;
                  }
                  
                  img {
